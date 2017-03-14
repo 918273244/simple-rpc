@@ -25,6 +25,7 @@ public class HelloServiceTest {
 		String result = helloService.hello("World");
 		System.out.println("服务端返回结果：");
 		System.out.println(result);
+		System.out.println("this is master");
 	}
 
 	@Test

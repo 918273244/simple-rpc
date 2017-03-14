@@ -26,6 +26,7 @@ public class HelloServiceTest {
 		System.out.println("服务端返回结果：");
 		System.out.println(result);
 		System.out.println("this is master");
+		System.out.println("合并 代码提交");
 	}
 
 	@Test

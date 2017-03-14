@@ -19,13 +19,13 @@ public class HelloServiceTest {
 	@Test
 	public void helloTest1() {
 		// 调用代理的create方法，代理HelloService接口
-//		测试使用收到
 		HelloService helloService = rpcProxy.create(HelloService.class);
 		
 		// 调用代理的方法，执行invoke
 		String result = helloService.hello("World");
 		System.out.println("服务端返回结果：");
 		System.out.println(result);
+//		输出最终结果
 	}
 
 	@Test

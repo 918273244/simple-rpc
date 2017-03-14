@@ -25,9 +25,6 @@ public class HelloServiceTest {
 		String result = helloService.hello("World");
 		System.out.println("服务端返回结果：");
 		System.out.println(result);
-//		输出最终结果
-		System.out.println("new name");
-		System.out.println("xiaoming");
 	}
 
 	@Test

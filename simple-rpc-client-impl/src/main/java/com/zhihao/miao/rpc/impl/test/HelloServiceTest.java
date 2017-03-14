@@ -26,6 +26,8 @@ public class HelloServiceTest {
 		System.out.println("服务端返回结果：");
 		System.out.println(result);
 //		输出最终结果
+//		阿萨实打实大
+		System.out.println("new name");
 	}
 
 	@Test
